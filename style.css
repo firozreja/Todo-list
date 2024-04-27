@@ -1,0 +1,106 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.todo_container{
+    width: 600px;
+    margin: 0 auto;
+    background-color: gray;
+    min-height: 300px;
+    padding: 12px;
+    margin-top: 10px;
+    border-radius: 8px;
+}
+h1{
+    text-align: center;
+    font-size: 30px;
+    padding-top: 15px;
+    color: #e5e5f3;
+}
+.input_area{
+    display: flex;
+    justify-content: space-between;
+    background-color: #fff;
+    padding: 10px 8px;
+    border-radius: 40px;
+    margin-top: 12px;
+    margin-bottom: 10px;
+}
+.input_area input{
+    border: none;
+    outline: none;
+    font-size: 22px;
+    flex: 1;
+    padding: 6px 18px;
+
+}
+.input_area button{
+    border: none;
+    outline: none;
+    font-size: 22px;
+    font-weight: 700;
+    background-color: coral;
+    padding:8px 32px ;
+    border-radius: 40px;
+    overflow: hidden;
+    color: white;
+
+}
+.todo_list{
+    list-style: none;
+    padding: 20px;
+}
+
+.todo_list li{
+    background-color: beige;
+    border-radius: 40px;
+    padding: 8px 12px;
+    font-size: 18px;
+    margin-top: 5px;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    border: none;
+    outline: none;
+}
+
+
+#delete{
+    border: none;
+    outline: none;
+    background-color: transparent;
+    margin-right: 10px;
+}
+
+#edit{
+    border:none;
+    outline: none;
+    background-color: transparent;
+    margin-right: 8px;
+}
+
+i{
+    pointer-events: none;
+}
+
+li span{
+    flex: 1;
+}
+
+li #input{
+    border: none;
+    font-size: 16px;
+    outline: none;
+    flex: 1;
+}
+
+li #button{
+    border:none;
+    background-color: coral;
+    font-size: 18px;
+    padding: 2px 4px;
+    border-radius: 40px;
+    color: white;
+    margin-left: 5px;
+}
